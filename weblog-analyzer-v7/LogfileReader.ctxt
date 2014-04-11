@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LogfileReader()
+comment0.text=\n\ Create\ a\ LogfileReader\ to\ supply\ data\ from\ a\ default\ file.\n
+comment1.params=filename
+comment1.target=LogfileReader(java.lang.String)
+comment1.text=\n\ Create\ a\ LogfileReader\ that\ will\ supply\ data\n\ from\ a\ particular\ log\ file.\ \n\ @param\ filename\ The\ file\ of\ log\ data.\n
+comment2.params=
+comment2.target=boolean\ hasNext()
+comment2.text=\n\ Does\ the\ reader\ have\ more\ data\ to\ supply?\n\ @return\ true\ if\ there\ is\ more\ data\ available,\n\ \ \ \ \ \ \ \ \ false\ otherwise.\n
+comment3.params=
+comment3.target=void\ remove()
+comment3.text=\n\ Remove\ an\ entry.\n\ This\ operation\ is\ not\ permitted.\n
+comment4.params=
+comment4.target=java.lang.String\ getFormat()
+comment4.text=\n\ @return\ A\ string\ explaining\ the\ format\ of\ the\ data\n\ \ \ \ \ \ \ \ \ in\ the\ log\ file.\n
+comment5.params=
+comment5.target=void\ reset()
+comment5.text=\n\ Set\ up\ a\ fresh\ iterator\ to\ provide\ access\ to\ the\ data.\n\ This\ allows\ a\ single\ file\ of\ data\ to\ be\ processed\n\ more\ than\ once.\n
+comment6.params=
+comment6.target=void\ printData()
+comment6.text=\n\ Print\ the\ data.\n
+numComments=7
